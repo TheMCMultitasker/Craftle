@@ -1,0 +1,164 @@
+body {
+  font-family: 'Mojang', 'Mojang', 'Mojang', 'Mojang';
+
+background: #26AEB8 url("https://cdn.glitch.global/b1818d4c-c20a-4512-9e80-fe1b657d058d/2021-12-04_16.27.06-mitchell.png?v=1644149397688") no-repeat fixed 0 0;}
+
+.header {
+  text-align: center;
+  height: 6vh;
+  font-size: 6vh;
+  color: white;
+  border-bottom: 0.1vw solid #4f4f52;
+  letter-spacing: 0.6vw;
+  width: 60vw;
+  top: 2;
+  float: top;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  position: absolute;
+  text-shadow: 0px 7px 7px #000000;
+}
+
+.nope {
+  text-align: center;
+  height: 6.2vh;
+  font-size: 0vh;
+  color: white;
+  background-color: #4f4f52;
+  width: 0vw;
+  top: 0;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  position: absolute;
+  margin-top: 7vh;
+  border-radius: 1vw;
+}
+
+.settings {
+  margin-top: 1vh;
+  float: right;
+  height: 2.5vh;
+  margin-right: 1vw;
+  float: top;
+}
+
+.stats {
+  margin-top: 1vh;
+  float: right;
+  height: 2.5vh;
+  float: top;
+  margin-right: 20vw;
+}
+
+.qmark {
+  margin-top: 1vh;
+  float: left;
+  height: 2.5vh;
+  margin-left: 20vw;
+}
+
+.y {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 6.2vh;
+  font-size: 5vh;
+  color: white;
+  letter-spacing: 0.6vw;
+  float: top;
+  width: 10vw;
+  top: 0;
+}
+
+.b {
+  color: white;
+  text-align: center;
+  margin-top: 11vh;
+  text-align: center;
+}
+
+.box {
+  max-width: 5vh;
+  max-height: 5vh;
+  min-width: 7vh;
+  min-height: 7vh;
+  border: 0.25vh solid #4f4f52;
+  margin: 0.6vh;
+  background-color: #121213;
+  position: static;
+  font-size: 300%;
+  color: white;
+  margin-left: auto;
+  margin-bottom: auto;
+  text-align: auto;
+  text-transform: capitalize;
+  display: block;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first {
+  color: white;
+}
+
+.key {
+  width: 5vw;
+  height: 8vh;
+  margin-top: 1vh;
+  margin-left: 0.5vw;
+  border: none;
+  border-radius: 1vh;
+  font-size: 120%;
+  color: white;
+  background-color: #818384;
+  font-family: 'Mojang', 'Mojang', 'Mojang', 'Mojang';
+}
+.c {
+  text-align: center;
+  position: fixed;
+  margin-left: 19vw;
+  margin-right: 19vw;
+  bottom: 1vh;
+}
+.yay{
+  text-align: center;
+  height: 6.2vh;
+  font-size: 0vh;
+  color: white;
+  background-color: #4f4f52;
+  width: 0;
+  height: 60vh;
+  top: 0;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  position: absolute;
+  margin-top: 7vh;
+  border-radius: 1vw;{
+ -webkit-animation:bounce-in 1s ease 0s 1 normal;
+ -moz-animation:bounce-in 1s ease 0s 1 normal;
+ -ms-animation:bounce-in 1s ease 0s 1 normal;
+ animation:bounce-in 1s ease 0s 1 normal;
+  text-shadow: 0px 7px 7px #000000;
+ }
+  
+
+@-webkit-keyframes bounce-in {
+0%{ opacity: 0; -webkit-transform: scale(.3); transform: scale(.3); }
+50%{ opacity: 1; -webkit-transform: scale(1.0); transform: scale(1.0); }
+70%{ -webkit-transform: scale(0.9); transform: scale(0.9); }
+100%{ -webkit-transform: scale(1); transform: scale(1); }
+}
+
+@keyframes bounce-in {
+0%{ opacity: 0; transform: scale(.3); }
+50%{ opacity: 1; transform: scale(1.0); }
+70%{ transform: scale(0.9); }
+100%{ transform: scale(1); }
+}
+  
+
+  
+  
